@@ -1,0 +1,11 @@
+$(function(){
+    $('#rouge').click(function(){
+        $('#text').css('color','red')
+    });
+    $('#vert').click(function(){
+        $('#text').css('color','green')
+    });
+    $('#bleu').click(function(){
+        $('#text').css('color','blue')
+    });
+});
